@@ -1,0 +1,98 @@
+*{
+    border: 1px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.moneda{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 30%;
+    margin-top: 5px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.coin{
+    height: 100px;
+    width: 100px;
+}
+
+.b{
+    height: 300px;
+    width: 300px;
+}
+
+.moneda,.coin,.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.btn{
+    background-color: #d3d3d3;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(249, 156, 7);
+}
+
+.active_button{
+    background-color: rgb(249, 156, 7);
+}
+
+h1{
+    margin-top: 2rem;
+    text-align: center;
+    color: #d3d3d3;
+}
+
+.container{
+    width: 50rem;
+    opacity: 0.9;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    margin-top: 10rem;
+    background-color: rgb(13, 86, 122);
+    border-radius: 10px;
+}
+
+.bton{
+    width: 15rem;
+    height: 3rem;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+
+.bton:hover{
+    background-color: #D4AF37;
+}
+
+select{
+   text-align: center; 
+}
